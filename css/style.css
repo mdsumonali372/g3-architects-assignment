@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+/* common css */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.primary-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.primary-para {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.primary-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 24px;
+  border: none;
+  outline: none;
+}
+.primary-btn a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+}
+/* header start */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  height: 80px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.menu {
+  display: flex;
+  gap: 78px;
+  align-items: center;
+}
+.menu-item a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #424242;
+}
+/* end header */
+/* hero part style */
+.hero {
+  padding: 116px 0 45px 0;
+  background: rgba(255, 144, 14, 0.1);
+}
+.hero-content {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #131313;
+}
+.hero-para {
+  margin: 32px 0;
+}
+.hero-btn {
+  margin-bottom: 50px;
+}
+/* end hero part style */
