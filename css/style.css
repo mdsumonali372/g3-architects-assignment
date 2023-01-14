@@ -54,6 +54,7 @@ img {
 header {
   background: rgba(255, 144, 14, 0.1);
   height: 80px;
+  padding-top: 30px;
 }
 nav {
   display: flex;
@@ -122,6 +123,17 @@ nav {
 }
 /* end feature list */
 /* feature work */
+.feature-work {
+  position: relative;
+  margin-bottom: 130px;
+}
+.feature-work-group {
+  display: flex;
+  gap: 146px;
+}
+.feature-work-left-col {
+  width: 40%;
+}
 .feature-work-title {
   border-left: 5px solid #ff900e;
   padding-left: 20px;
@@ -143,8 +155,41 @@ nav {
   color: #131313;
   margin-bottom: 10px;
 }
+.feature-work-right-col {
+  width: 60%;
+}
+.feature-work-right-col img {
+  height: 982px;
+  object-fit: cover;
+}
+.work-btn {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 45px;
+  border: none;
+  outline: none;
+}
+.feature-work-btn {
+  position: absolute;
+  bottom: 0;
+  left: 53%;
+  transform: translate(-47%, -50%);
+}
+
+.work-btn span {
+  font-size: 20px;
+  font-weight: 400;
+}
 /* end feature work */
 /* fact */
+.fact-content {
+  width: 50%;
+}
 .fact-para {
   margin: 24px 0 100px 0;
 }
@@ -193,12 +238,52 @@ nav {
   justify-content: space-between;
   margin-top: 50px;
 }
-
 .sponsor-logo img {
   width: 165px;
-  fill: grayscale(1);
+  filter: grayscale(1);
 }
 /* end sponsor part */
+/* architecture start */
+.architecture {
+  padding: 50px 0;
+}
+.architecture-content {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+.architecture-content .primary-para {
+  margin-top: 24px;
+}
+.architecture-blogs {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-item {
+  width: 320px;
+  background: #fff;
+  box-shadow: 2px 2px 4px #ccc;
+}
+.blog-info {
+  padding: 10px;
+}
+.blog-info h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+  margin-top: 10px;
+}
+.author-date p {
+  margin-top: 14px;
+}
+.read-more {
+  font-weight: 700;
+  margin-top: 24px;
+  display: block;
+}
+/* end architecture */
 /* footer */
 footer {
   padding-bottom: 216px;
