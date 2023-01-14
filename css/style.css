@@ -199,3 +199,20 @@ nav {
   fill: grayscale(1);
 }
 /* end sponsor part */
+/* footer */
+footer {
+  padding-bottom: 216px;
+}
+.footer-bg {
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 39px;
+  text-align: center;
+}
+.footer-bg p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #424242;
+}
+/* end footer */
