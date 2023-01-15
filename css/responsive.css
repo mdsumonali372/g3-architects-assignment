@@ -58,7 +58,8 @@
     padding: 3% 24%;
   }
   .fact-content {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
   }
   .awards {
