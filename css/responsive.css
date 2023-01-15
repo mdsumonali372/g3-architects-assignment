@@ -65,6 +65,9 @@
   .awards {
     gap: 16px;
   }
+  .award-item:hover {
+    transform: scale(1.1);
+  }
   .sponsor {
     padding: 20% 0 10%;
   }
@@ -79,6 +82,9 @@
     margin: auto;
     margin-bottom: 5%;
     width: 90%;
+  }
+  footer {
+    padding: 0;
   }
   .footer-bg p {
     font-size: 16px;
