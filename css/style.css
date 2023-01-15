@@ -166,7 +166,6 @@ nav {
 }
 .feature-work-right-col img {
   height: 100%;
-  object-fit: cover;
 }
 .work-btn {
   font-weight: 700;
