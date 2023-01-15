@@ -137,7 +137,7 @@ nav {
   gap: 146px;
 }
 .feature-work-left-col {
-  width: 40%;
+  width: 50%;
   margin-top: 4%;
 }
 .feature-work-title {
@@ -162,7 +162,7 @@ nav {
   margin-bottom: 10px;
 }
 .feature-work-right-col {
-  width: 60%;
+  width: 50%;
 }
 .feature-work-right-col img {
   height: 100%;
@@ -182,8 +182,8 @@ nav {
 .feature-work-btn {
   position: absolute;
   bottom: 0;
-  left: 53%;
-  transform: translate(-47%, 32%);
+  left: 60%;
+  transform: translate(-40%, 32%);
 }
 
 .work-btn span {
