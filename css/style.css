@@ -43,6 +43,11 @@ img {
   border: none;
   outline: none;
 }
+.primary-btn:hover,
+.work-btn:hover {
+  background: red;
+  cursor: pointer;
+}
 .primary-btn a {
   font-weight: 600;
   font-size: 20px;
@@ -204,6 +209,7 @@ nav {
   width: 241px;
   text-align: center;
   padding: 45px 30px;
+  transition: transform 1s;
 }
 .award-item img {
   width: 45px;
@@ -223,6 +229,7 @@ nav {
 .award-item:hover {
   background: #000;
   color: #fff;
+  transform: scale(1.2);
 }
 .award-item:hover h3,
 .award-item:hover p {
