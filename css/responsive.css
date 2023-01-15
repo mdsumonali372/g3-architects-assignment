@@ -48,10 +48,7 @@
     height: 100%;
   }
   .feature-work-btn {
-    position: inherit;
-    transform: translate(0, 0);
-    text-align: center;
-    margin-top: 10%;
+    transform: translate(-67%, 36%);
   }
   .feature-work-group {
     gap: 30px;
@@ -115,10 +112,7 @@
     padding-top: 25%;
   }
   .feature-work-btn {
-    position: inherit;
-    transform: translate(0, 0);
-    text-align: center;
-    margin-top: 20px;
+    transform: translate(-50%, 32%);
   }
   .work-btn {
     padding: 15px 45px;
