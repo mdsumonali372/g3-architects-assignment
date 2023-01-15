@@ -138,6 +138,7 @@ nav {
 }
 .feature-work-left-col {
   width: 40%;
+  margin-top: 4%;
 }
 .feature-work-title {
   border-left: 5px solid #ff900e;
@@ -164,7 +165,7 @@ nav {
   width: 60%;
 }
 .feature-work-right-col img {
-  height: 982px;
+  height: 100%;
   object-fit: cover;
 }
 .work-btn {
@@ -183,7 +184,7 @@ nav {
   position: absolute;
   bottom: 0;
   left: 53%;
-  transform: translate(-47%, -50%);
+  transform: translate(-47%, 32%);
 }
 
 .work-btn span {
