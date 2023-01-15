@@ -113,7 +113,9 @@
   .feature-work-left-col,
   .feature-work-right-col,
   .fact-content,
-  .hero-img {
+  .hero-img,
+  .feature-left-column,
+  .feature-right-column {
     width: 90%;
     margin: 0 auto;
   }
