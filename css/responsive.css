@@ -80,9 +80,69 @@
   .blog-item {
     margin: auto;
     margin-bottom: 5%;
+    width: 90%;
   }
   .footer-bg p {
     font-size: 16px;
   }
 }
 /* end small device */
+/* Medium device  */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+  nav,
+  .menu,
+  .feature-teams-group,
+  .feature-work-group,
+  .awards,
+  .sponsor-logo,
+  .architecture-blogs {
+    flex-direction: column;
+  }
+  .feature-work-left-col,
+  .feature-work-right-col,
+  .fact-content,
+  .hero-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  .hero {
+    padding-top: 25%;
+  }
+  .feature-work-btn {
+    position: inherit;
+    transform: translate(0, 0);
+    text-align: center;
+    margin-top: 20px;
+  }
+  .work-btn {
+    padding: 15px 45px;
+  }
+  .fact-content {
+    text-align: center;
+  }
+  .awards,
+  .architecture-blogs,
+  .menu,
+  .feature-work-group {
+    gap: 20px;
+  }
+  .sponsor-logo {
+    gap: 40px;
+  }
+
+  .sponsor-logo img {
+    width: 50%;
+    margin: auto;
+  }
+  .blog-item {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+/* end Medium device */

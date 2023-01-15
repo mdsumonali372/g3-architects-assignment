@@ -220,6 +220,14 @@ nav {
   line-height: 23px;
   color: #727272;
 }
+.award-item:hover {
+  background: #000;
+  color: #fff;
+}
+.award-item:hover h3,
+.award-item:hover p {
+  color: #fff;
+}
 /* end fact */
 /* sponsor part */
 .sponsor {
