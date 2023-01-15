@@ -39,7 +39,9 @@
     line-height: 30px;
   }
   .feature-work-left-col,
-  .feature-work-right-col {
+  .feature-work-right-col,
+  .feature-right-column,
+  .feature-left-column {
     text-align: center;
     width: 90%;
     margin: auto;
