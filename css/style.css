@@ -258,6 +258,9 @@ nav {
   width: 165px;
   filter: grayscale(1);
 }
+.sponsor-logo img:hover {
+  filter: grayscale(0);
+}
 /* end sponsor part */
 /* architecture start */
 .architecture {
